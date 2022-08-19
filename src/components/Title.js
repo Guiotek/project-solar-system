@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 
-const headline = <h2>Planetas</h2>;
-
 class Title extends Component {
   render() {
+    const headline = <h2>Planetas</h2>;
     return <title>{ headline }</title>;
   }
 }
