@@ -9,7 +9,6 @@ class App extends React.Component {
       <div>
         <Header />
         <SolarSystem />
-        <PlanetCard planetName="Jupiter" planetImage="public/planets/Jupiter.png" />
       </div>
     );
   }
